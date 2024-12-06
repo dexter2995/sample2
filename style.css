@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+}
+.header-image{
+    position: absolute;
+    top: -20vh;
+    z-index: -1;
+
+}
+.nav{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    color: white;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 10px;
+}
+.app_link{
+    text-decoration: none;
+    font-weight: 500;
+}
+.nav-bar{
+    display: flex;
+}
+.nav-bar li{
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    padding-left: 30px;
+    list-style: none;
+    margin: 0 10px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10vh;
+    align-items: center;
+   
+}
+.logo{
+    width: 20vw;
+    padding: 30px;
+}
+.head h3{
+    font-size: 2,1em;
+    color: whitesmoke;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+}
+.search{
+display: flex;
+width: 50%;
+align-items: center;
+justify-content:flex-start ;
+border-radius: 20px;
+background-color: white;
+padding: 5px 0;
+}
+.search input{
+    outline: none;
+    border: none;
+    width: 50%;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.search p{
+    color: gray;
+    border-right: 1px solid gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.search i:first-child{
+    font-size: 20px;
+    color: rgb(252,119,119);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.search i{
+    color: gray;
+    padding-left: 10px;
+}
+.logo{
+    width: 25%;
+    height:25% ;
+}
+.hi{
+    left:100px;
+}
+.sec-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13vh;
+}
+.box{
+    position: relative;
+    width: 265px;
+}
+.order-section{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.order-section .order{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 40px;
+}
+.order .card{
+width: 40%;
+margin:15px;
+border-radius: 8px;
+border: 1px solid rgb(209, 207, 207);
+}
+.order .card a img{
+
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+}
+.order .card:hover{
+    transform: scale(1.1);
+}
+
+
+.order .card .content .heading{
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+.order .card .content .text{
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+.collections{
+    width: 85%;
+    margin: 90px auto;
+    text-align: center;
+}
+.collections h1{
+    text-align: left;
+    font-size: 2.1rem;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.collections p{
+    text-align: left;
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.collections-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+.collections-cards .card{
+width: 280px;
+height: 320px;
+overflow: hidden;
+border-radius: 8px;
+position: relative;
+margin: 12px 0;
+}
+.collections-cards .card img{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(from bottom, #000,#ccc);
+}
+.collections-cards .card .content{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.collections-cards .card .content p{
+    color: azure;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin: 5px 9px;
+}
+.collection h1 {
+    color: ;
+}
+.popular-location{
+    width: 100%;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.popular-location .box{
+    width: 30%;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin: 10px 15px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 7px;
+}
+.popular-location .box a{
+    text-decoration: none;
+    color: #6b6a6a;
+}
+.popular-location .box p{
+    margin: 0;
+}
+.popular-location .box .city{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.popular-location .box .place{
+    font-size: 16px;
+    letter-spacing: 8px 0;
+}
+.popular-location .box i{
+    color: #8b8a8a;
+}
+.popular-location .box:hover{
+    box-shadow: 0px 5px 2px rgba(0,0,0, 0.3);
+}
+.app-section{
+    width: 100%;
+    background: rgb(252, 232, 232);
+    padding: 60px 0;
+}
+
